@@ -1,0 +1,94 @@
+Type,Name,t2,Comments,Source,start,end
+-2,DE Cir,5,t2 = 5 days based on AAVSO data.,CBAT,,
+0,FM Cir,150,t2 = 150 days based on https://ui.adsabs.harvard.edu/abs/2020ApJ...905...62A/abstract,Koji's List,0,180
+1,V1428 Cen,11,t2 = 11 days based on ASAS-SN data,Koji's List,0,80
+0,V1405 Cen,110,t2 = 110 days based on ASAS-SN and AAVSO data,Koji's List,0,360
+-2,N LMC 1996,3,t2 = 3 days based on ASAS-SN data,SMARTS,,
+2,N LMC 2005,63,t2 = 63 days based on this: https://articles.adsabs.harvard.edu/pdf/2007JAVSO..35..359L (better plotting the SMARTS V light curve and see if this is accurate),SMARTS,0,140
+-1,N LMC 2009a,5,t2 = 5 days based on https://ui.adsabs.harvard.edu/abs/2016ApJ...818..145B/abstract,SMARTS,0,200
+2,N LMC 2009b,5,"t2 = 5 days based on Orio et al., 2021 MNRAS, 505, 3113O",SMARTS,0,161
+0,N LMC 2012a,2,t2 = 2 days based on https://ui.adsabs.harvard.edu/abs/2015AJ....149...95S/abstract,SMARTS,0,70
+-3,N LMC 2012b,10,t2 = 10 days based on ATel,SMARTS,,
+2,N LMC 2013,52,t2 = 52 days based on https://iopscience.iop.org/article/10.3847/0067-0049/222/1/9,SMARTS,0,131
+-2,N LMC 2015,58,t2 > 58 days based on ASAS-SN data https://asas-sn.osu.edu/sky-patrol/coordinate/1206cd23-db98-45d3-9b9b-9476d95380ad,SMARTS,,
+-3,N LMC 2018a,35,t2 ~ 35 days based on AAVSO data,SMARTS,,
+-3,N LMC 2018b,??,??,SMARTS,,
+-3,V408 Lup,57,t2 = 57 days based on AAVSO data,Koji's List,,
+2,V357 Mus,40,t2 = 40 days based on https://ui.adsabs.harvard.edu/abs/2021ApJ...910..134G/abstract,Koji's List,0,150
+2,V3662 Oph,43,t2 = 43 based on ASAS-SN data (no much early data),Koji's List,0,120
+-2,V3665 Oph,40,t2 = 40 days based on AAVSO data,Koji's List,,
+-3,V3666 Oph,20,t2 = 20 days based on AAVSO data,Koji's List,,
+-2,NR TrA,45,t2 = 45 days based on AAVSO data,Koji's List,,
+2,V1661 Sco,14,t2 < 14 days based on AAVSO data (no much early data),Koji's List,0,70
+1,V1662 Sco,11,t2 = 11 days based on AAVSO data,Koji's List,0,60
+-3,N SMC 2012,40,t2 = 40 days (check discovery date in this paper: https://iopscience.iop.org/article/10.3847/0067-0049/222/1/9,SMARTS,,
+-2,N SMC 2016,4,t2 = 4 days based on https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.2679A/abstract,SMARTS,,
+-2,PR Lup,15,"t2 = 15 days (based on AAVSO data, better to double check).",Koji's List,0,320
+-2,QY Mus,80,t2 = 80 days based on AAVSO data,Koji's List,,
+0,RS Oph,R,Recurrent nova with giant companion (not sure we want to include),Koji's List,0,150
+-2,T Pyx,R,Recurrent nova (not sure we want to include),Koji's List,,
+-3,V1047 Cen,5,t2 = 5 days from AAVSO data,CBAT,,
+-3,V1065 Cen,11,t2 = 11 days from this https://ui.adsabs.harvard.edu/abs/2010AJ....140.1347H/abstract,CBAT,,
+-2,V1187 Sco,9,t2 = 9 days from https://iopscience.iop.org/article/10.1086/498883,CBAT,,
+-2,V1213 Cen,11,t2 = 11 days from https://ui.adsabs.harvard.edu/abs/2010ATel.2904....1S/abstract,CBAT,,
+-2,V1280 Sco,21,t2 = 21 days from https://ui.adsabs.harvard.edu/abs/2008MNRAS.391.1874D/abstract (Read this paper about potential early dust formation event in this nova).,CBAT,,
+-3,V1309 Sco,20,t2 ~ 20 days from https://arxiv.org/pdf/1004.3600.pdf but this is probably a stellar merger and not a classical nova; see this: https://www.aanda.org/articles/aa/full_html/2016/08/aa27700-15/aa27700-15.html,CBAT,,
+-2,V1311 Sco,6,t2 = 6 days based on AAVSO data,CBAT,,
+0,V1312 Sco,12,t2 = 12 days based on AAVSO data,Koji's List,0,140
+-2,V1313 Sco,12,t2 = 12 days based on AAVSO data,Koji's List,,
+2,V1324 Sco,24,t2 = 24 days from Chochol et al. (2021) or Gordon et al. 2021,Koji's List,0,80
+2,V1368 Cen,16,t2 = 16 days based on AAVSO data,Koji's List,0,61
+-1,V1369 Cen,14,t2 = 14 days based on https://ui.adsabs.harvard.edu/abs/2020ApJ...905...62A/abstract,Koji's List,0,265
+-2,V1375 Cen,??,No early data. Discovered during the SSS. I would suggest removing this one because the SMARTS data are taken really late and we cannot say if dust formed before or not.,Koji's List,,
+1,V1533 Sco,11,t2 = 11 days from https://iopscience.iop.org/article/10.3847/2515-5172/ac0258,Koji's List,0,70
+0,V1534 Sco,7,t2 = 7 days based on AAVSO data,Koji's List,0,140
+0,V1535 Sco,15,t2 = 15 days based on AAVSO data,Koji's List,0,150
+-2,V1656 Sco,9,t2 = 9 days based on AAVSO data,Koji's List,,
+-2,V1663 Aql,16,"t2 = 16 days based on AAVSO data, see as also https://ui.adsabs.harvard.edu/abs/2007ApJ...669.1150L/abstract",CBAT,,
+-3,V2574 Oph,??,only 5 observations? Taken years after? Why it is in the sample?,CBAT,,
+-2,V2575 Oph,??,No early data. Also no SMARTS data??,CBAT,,
+-3,V2576 Oph,30,t2 = 30 days based on AAVSO data,CBAT,,
+-3,V2615 Oph,??,No data,CBAT,,
+-2,V2670 Oph,20,t2 ~ 20 days based on AAVSO data,CBAT,,
+-3,V2671 Oph,??,No early data,CBAT,,
+-2,V2672 Oph,2,t2 = 2 days based on https://academic.oup.com/mnras/article/410/1/525/1035551,CBAT,,
+2,V2676 Oph,84,t2 = 84 days based on AAVSO data,Koji's List,0,126
+0,V2677 Oph,7,t2 = 7 days based on AAVSO data,Koji's List,0,220
+-1,V2944 Oph,16,t2 = 16 days based on AAVSO data,Koji's List,0,260
+2,V339 Del,11,t2 = 11 days based on AAVSO data,Koji's List,0,100
+-1,V3661 Oph,3,t2 = 3 days based on AAVSO data,Koji's List,0,250
+-2,V0382 Nor,??,not much early observations,CBAT,,
+-3,V3890 Sgr,1.3,t2 = 1.3 days based on AAVSO data Recurrent nova (not sure we want to include),Koji's List,,
+-2,V407 Lup,3,t2 = 3 days from https://ui.adsabs.harvard.edu/abs/2018MNRAS.480..572A/abstract,Koji's List,,
+2,V0475 Sct,48,t2 = 48 days based on https://ui.adsabs.harvard.edu/abs/2005ASPC..330..439C/abstract,CBAT,0,100
+-2,V496 Sct,59,Not much early data. t2 = 59 days based on https://arxiv.org/pdf/1207.4876.pdf,CBAT,,
+-2,V5114 Sgr,11,t2 = 11 days based on https://arxiv.org/pdf/astro-ph/0608598.pdf,CBAT,,
+-2,V5117 Sgr,??,Not much early data,CBAT,,
+-2,V549 Vel,90,t2 = 90 days based on AAVSO data,Koji's List,,
+-2,V5558 Sgr,125,t2 = 125 days based on AAVSO data,CBAT,,
+-2,V5579 Sgr,8,t2 = 8 days based on https://arxiv.org/pdf/1106.0883.pdf,CBAT,,
+-2,V5583 Sgr,5,t2 = 5 days based on https://academic.oup.com/mnras/article/438/4/3483/1108086,CBAT,,
+2,V5584 Sgr,25,t2 = 25 days based on https://arxiv.org/pdf/1412.7600.pdf,CBAT,0,141
+-2,V5586 Sgr,??,Not much early observations (probably discovered during a dust dip).,CBAT,,
+0,V5588 Sgr,45,t2 = 45 days based on AAVSO data.,Koji's List,0,280
+0,V5589 Sgr,5,t2 = 5 days based on AAVSO data,Koji's List,0,180
+-2,V5590 Sgr,??,No early data,Koji's List,,
+0,V5591 Sgr,3,t2 = 3 days based on AAVSO data,Koji's List,0,170
+2,V5592 Sgr,18,t2 = 18 days based on AAVSO data,Koji's List,0,80
+-2,V5593 Sgr,45,t2 = 45 days based on AAVSO data.,Koji's List,,
+-1,V5666 Sgr,70,t2 = 70 days based on AAVSO data.,Koji's List,0,130
+-1,V5667 Sgr,54,t2 = 54 days based on AAVSO data.,Koji's List,0,300
+2,V5668 Sgr,75,t2 = 75 days based on AAVSO data.,Koji's List,60,170
+-2,V5669 Sgr,25,t2 = 25 days based on AAVSO data.,Koji's List,,
+0,V0574 Pup,10,t2 = 10 days based on https://arxiv.org/pdf/1001.1245.pdf,CBAT,0,250
+-2,V5853 Sgr,25,t2 = 25 days based on AAVSO data,Koji's List,,
+-2,V5856 Sgr,10,t2 = 10 days based on https://arxiv.org/pdf/1709.00763.pdf,Koji's List,,
+-3,V597 Pup,2.5,t2 = 2.5 days based on https://ui.adsabs.harvard.edu/abs/2009MNRAS.394.1551N/abstract,CBAT,,
+-2,V598 Pup,??,Not much early data,CBAT,,
+0,V612 Sct,120,t2 > 120 days based on AAVSO data.,Koji's List,0,360
+-2,V679 Car,14,t2 = 14 days based on https://www.aanda.org/component/article?access=doi&doi=10.1051%2F0004-6361%2F201731516&mb=0,Koji's List,,
+0,V745 Sco,3,t2 = 3 days based on AAVSO data (recurrent nova; not sure we want to keep).,Koji's List,0,70
+0,V834 Car,20,t2 = 20 days based on AAVSO data,Koji's List,0,140
+2,V906 Car,44,t2 = 44 days based on https://ui.adsabs.harvard.edu/abs/2020NatAs...4..776A/abstract,Koji's List,0,181
+0,V959 Mon,??,no early data (discovered in the gamma-rays,Koji's List,0,330
+-2,YY Dor,4,t2 = 4 days based on https://arxiv.org/pdf/1408.4038.pdf,SMARTS,,

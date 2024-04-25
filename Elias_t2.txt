@@ -1,0 +1,94 @@
+category	Official	Name Source
+-2	DE Cir	CBAT	t2 = 5 days based on AAVSO data.
+0	FM Cir	Koji's List	t2 = 150 days based on https://ui.adsabs.harvard.edu/abs/2020ApJ...905...62A/abstract
+1	V1428 Cen	Koji's List	t2 = 11 days based on ASAS-SN data
+0	V1405 Cen	Koji's List	t2 = 110 days based on ASAS-SN and AAVSO data
+-2	N LMC 1996	SMARTS	t2 = 3 days based on ASAS-SN data
+2	N LMC 2005	SMARTS	t2 = 63 days based on this: https://articles.adsabs.harvard.edu/pdf/2007JAVSO..35..359L (better plotting the SMARTS V light curve and see if this is accurate)
+-1	N LMC 2009a	SMARTS	t2 = 5 days based on https://ui.adsabs.harvard.edu/abs/2016ApJ...818..145B/abstract
+2	N LMC 2009b	SMARTS	t2 = 5 days based on Orio et al., 2021 MNRAS, 505, 3113O
+0	N LMC 2012a	SMARTS	t2 = 2 days based on https://ui.adsabs.harvard.edu/abs/2015AJ....149...95S/abstract
+-3	N LMC 2012b	SMARTS	t2 = 10 days based on ATel #4540
+2	N LMC 2013	SMARTS	t2 = 52 days based on https://iopscience.iop.org/article/10.3847/0067-0049/222/1/9
+-2	N LMC 2015	SMARTS	t2 > 58 days based on ASAS-SN data https://asas-sn.osu.edu/sky-patrol/coordinate/1206cd23-db98-45d3-9b9b-9476d95380ad
+-3	N LMC 2018a	SMARTS	t2 ~ 35 days based on AAVSO data
+-3	N LMC 2018b	SMARTS	??
+-3	V408 Lup	Koji's List	t2 = 57 days based on AAVSO data
+2	V357 Mus	Koji's List	t2 = 40 days based on https://ui.adsabs.harvard.edu/abs/2021ApJ...910..134G/abstract
+2	V3662 Oph	Koji's List	t2 = 43 based on ASAS-SN data (no much early data)
+-2	V3665 Oph	Koji's List	t2 = 40 days based on AAVSO data
+-3	V3666 Oph	Koji's List	t2 = 20 days based on AAVSO data
+-2	NR TrA	Koji's List	t2 = 45 days based on AAVSO data
+2	V1661 Sco	Koji's List	t2 < 14 days based on AAVSO data (no much early data)
+1	V1662 Sco	Koji's List	t2 = 11 days based on AAVSO data
+-3	N SMC 2012	SMARTS	t2 = 40 days (check discovery date in this paper: https://iopscience.iop.org/article/10.3847/0067-0049/222/1/9
+-2	N SMC 2016	SMARTS	t2 = 4 days based on https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.2679A/abstract
+-2	PR Lup	Koji's List	t2 = 15 days (based on AAVSO data, better to double check).
+-2	QY Mus	Koji's List	t2 = 80 days based on AAVSO data
+0	RS Oph	Koji's List	Recurrent nova with giant companion (not sure we want to include)
+-2	T Pyx	Koji's List	Recurrent nova (not sure we want to include)
+-3	V1047 Cen	CBAT	t2 = 5 days from AAVSO data
+-3	V1065 Cen	CBAT	t2 = 11 days from this https://ui.adsabs.harvard.edu/abs/2010AJ....140.1347H/abstract
+-2	V1187 Sco	CBAT	t2 = 9 days from https://iopscience.iop.org/article/10.1086/498883
+-2	V1213 Cen	CBAT	t2 = 11 days from https://ui.adsabs.harvard.edu/abs/2010ATel.2904....1S/abstract
+-2	V1280 Sco	CBAT	t2 = 21 days from https://ui.adsabs.harvard.edu/abs/2008MNRAS.391.1874D/abstract (Read this paper about potential early dust formation event in this nova).
+-3	V1309 Sco	CBAT	t2 ~ 20 days from https://arxiv.org/pdf/1004.3600.pdf but this is probably a stellar merger and not a classical nova; see this: https://www.aanda.org/articles/aa/full_html/2016/08/aa27700-15/aa27700-15.html
+-2	V1311 Sco	CBAT	t2 = 6 days based on AAVSO data
+0	V1312 Sco	Koji's List	t2 = 12 days based on AAVSO data
+-2	V1313 Sco	Koji's List	t2 = 12 days based on AAVSO data
+2	V1324 Sco	Koji's List	t2 = 24 days from Chochol et al. (2021) or Gordon et al. 2021
+2	V1368 Cen	Koji's List	t2 = 16 days based on AAVSO data
+-1	V1369 Cen	Koji's List	t2 = 14 days based on https://ui.adsabs.harvard.edu/abs/2020ApJ...905...62A/abstract
+-2	V1375 Cen	Koji's List	No early data. Discovered during the SSS. I would suggest removing this one because the SMARTS data are taken really late and we cannot say if dust formed before or not.
+1	V1533 Sco	Koji's List	t2 = 11 days from https://iopscience.iop.org/article/10.3847/2515-5172/ac0258
+0	V1534 Sco	Koji's List	t2 = 7 days based on AAVSO data
+0	V1535 Sco	Koji's List	t2 = 15 days based on AAVSO data
+-2	V1656 Sco	Koji's List	t2 = 9 days based on AAVSO data
+-2	V1663 Aql	CBAT	t2 = 16 days based on AAVSO data, see as also https://ui.adsabs.harvard.edu/abs/2007ApJ...669.1150L/abstract
+-3	V2574 Oph	CBAT	only 5 observations? Taken years after? Why it is in the sample?
+-2	V2575 Oph	CBAT	No early data. Also no SMARTS data??
+-3	V2576 Oph	CBAT	t2 = 30 days based on AAVSO data
+-3	V2615 Oph	CBAT	No data
+-2	V2670 Oph	CBAT	t2 ~ 20 days based on AAVSO data
+-3	V2671 Oph	CBAT	No early data
+-2	V2672 Oph	CBAT	t2 = 2 days based on https://academic.oup.com/mnras/article/410/1/525/1035551
+2	V2676 Oph	Koji's List	t2 = 84 days based on AAVSO data
+0	V2677 Oph	Koji's List	t2 = 7 days based on AAVSO data
+-1	V2944 Oph	Koji's List	t2 = 16 days based on AAVSO data
+2	V339 Del	Koji's List	t2 = 11 days based on AAVSO data
+-1	V3661 Oph	Koji's List	t2 = 3 days based on AAVSO data
+-2	V382 Nor	CBAT	not much early observations
+-3	V3890 Sgr	Koji's List	t2 = 1.3 days based on AAVSO data Recurrent nova (not sure we want to include)
+-2	V407 Lup	Koji's List	t2 = 3 days from https://ui.adsabs.harvard.edu/abs/2018MNRAS.480..572A/abstract
+2	V475 Sct	CBAT	t2 = 48 days based on https://ui.adsabs.harvard.edu/abs/2005ASPC..330..439C/abstract
+-2	V496 Sct	CBAT	Not much early data. t2 = 59 days based on https://arxiv.org/pdf/1207.4876.pdf
+-2	V5114 Sgr	CBAT	t2 = 11 days based on https://arxiv.org/pdf/astro-ph/0608598.pdf
+-2	V5117 Sgr	CBAT	Not much early data
+-2	V549 Vel	Koji's List	t2 = 90 days based on AAVSO data
+-2	V5558 Sgr	CBAT	t2 = 125 days based on AAVSO data
+-2	V5579 Sgr	CBAT	t2 = 8 days based on https://arxiv.org/pdf/1106.0883.pdf
+-2	V5583 Sgr	CBAT	t2 = 5 days based on https://academic.oup.com/mnras/article/438/4/3483/1108086
+2	V5584 Sgr	CBAT	t2 = 25 days based on https://arxiv.org/pdf/1412.7600.pdf
+-2	V5586 Sgr	CBAT	Not much early observations (probably discovered during a dust dip).
+0	V5588 Sgr	Koji's List	t2 = 45 days based on AAVSO data.
+0	V5589 Sgr	Koji's List	t2 = 5 days based on AAVSO data
+-2	V5590 Sgr	Koji's List	No early data
+0	V5591 Sgr	Koji's List	t2 = 3 days based on AAVSO data
+2	V5592 Sgr	Koji's List	t2 = 18 days based on AAVSO data
+-2	V5593 Sgr	Koji's List	t2 = 45 days based on AAVSO data.
+-1	V5666 Sgr	Koji's List	t2 = 70 days based on AAVSO data.
+-1	V5667 Sgr	Koji's List	t2 = 54 days based on AAVSO data.
+2	V5668 Sgr	Koji's List	t2 = 75 days based on AAVSO data.
+-2	V5669 Sgr	Koji's List	t2 = 25 days based on AAVSO data.
+0	V574 Pup	CBAT	t2 = 10 days based on https://arxiv.org/pdf/1001.1245.pdf
+-2	V5853 Sgr	Koji's List	t2 = 25 days based on AAVSO data
+-2	V5856 Sgr	Koji's List	t2 = 10 days based on https://arxiv.org/pdf/1709.00763.pdf
+-3	V597 Pup	CBAT	t2 = 2.5 days based on https://ui.adsabs.harvard.edu/abs/2009MNRAS.394.1551N/abstract
+-2	V598 Pup	CBAT	Not much early data
+0	V612 Sct	Koji's List	t2 > 120 days based on AAVSO data.
+-2	V679 Car	Koji's List	t2 = 14 days based on https://www.aanda.org/component/article?access=doi&doi=10.1051%2F0004-6361%2F201731516&mb=0
+0	V745 Sco	Koji's List	t2 = 3 days based on AAVSO data (recurrent nova; not sure we want to keep).
+0	V834 Car	Koji's List	t2 = 20 days based on AAVSO data
+2	V906 Car	Koji's List	t2 = 44 days based on https://ui.adsabs.harvard.edu/abs/2020NatAs...4..776A/abstract
+0	V959 Mon	Koji's List	no early data (discovered in the gamma-rays
+-2	YY Dor	SMARTS	t2 = 4 days based on https://arxiv.org/pdf/1408.4038.pdf
