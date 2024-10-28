@@ -1,94 +1,94 @@
-﻿Official Name,category,Saturated,tmax-t0,tmax-t0 calc,t0,source (t0),tmax,tmax err +,tmax err -,source (tmax),t2,Δt2 +,Δt2 -,t2 err +,t2 err -,source (t20,V date,V mag,Source (V),V0,K date,K mag,Source (K),K date - V date,K date - tmax,V-K Color,Extinction Corrected V-K Color,Extinction Corrected Uncertainty,Extinction(A_v),A_v Uncertainty,A_v Source,Extinction(A_k),A_k Uncertainty,Notes
-DE Cir,-2,0,N,,2452921.504,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FM Cir,0,1,8.627,8.627,2458138.2,ATel #11209,2458146.827,0.96826,0.94873,Ashley,133.73,1.048456052,2.20040511,0.40216,1.98537,Ashley,,,,,,,,,,,,0.461,1.3,0.43,stats DIB,0.095,0.031,"My code had the lower xlim(time) set to 120; not sure why. SMARTS has data starting from about t0 (It says it starts at t0-7???? Their t0 is also ~8 days after mine). However, data looks strange... unsure when actual eruption was."
-V1428 Cen,1,0,3,2.999,2456022.27,SMARTS,2456025.269,0.464007,0.428673,Ashley,10.784,0.885162365,0.49231535,0.753797,0.242103,Ashley,,,,,,,,,,,,0.323,4.2,0.3,stats,0.306,0.023,
-V1405 Cen,0,0,23.3,24.32,2457868.58,ATel #10387,2457892,2,1,Elias,108.5,,,5,10,Ashley,,,,,,,,,,,,0.601,1.95,0.56,stats DIB,0.142,0.041,
-N LMC 1996,-2,0,N,,2458176.578,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-N LMC 2005,2,0,N,,2453700.664,AAVSO Alert 330,2453710.57,,,https://ui.adsabs.harvard.edu/abs/2007JAVSO..35..359L/abstract,63,,,,,Elias https://articles.adsabs.harvard.edu/pdf/2007JAVSO..35..359L,2453711.655,12.213,SMARTS,12.012,2453711.655,10.879,SMARTS,0,1.085,1.334,1.148,,0.201,,NED CTIO V,0.015,0,
-N LMC 2009a,-1,0,N,,2454867.567,*,2454865,2.5,2.5,Elias,7,,,,,,,,,,,,,,,,,,0.201,,NED CTIO V,0.015,0,
-N LMC 2009b,2,0,N,,2454956.494,AAVSO Special 154,,,,,,,,,,,,,,,,,,,,,,,0.201,,NED CTIO V,0.015,0,
-N LMC 2012a,0,0,N,,2456012.897,*,,,,,2,,,,,Elias,,,,,,,,,,,,,0.201,,NED CTIO V,0.015,0,Data starts t0+2 in SMARTS
-N LMC 2012b,-3,0,N,,2456225.81,ATel #4540,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-N LMC 2013,2,0,N,,2456582.036,ATel #5491,2456577.827,4.009445,4.009445,Elias,,,,,,,,,,,,,,,,,,,0.34,,NED CTIO V,0.025,0.001,Data starts t0+10 in SMARTS
-N LMC 2015,-2,0,N,,2457096.62,ATel #7260,2457123.005,,,Elias,,,,,,,2457122.505,11.561,SMARTS,11.3,2457122.503,9.702,SMARTS,-0.00195,-0.50207,1.859,1.617,,0.261,,NED CTIO V,0.019,0,
-N LMC 2018a,-3,0,N,,2458242.46,SMARTS,2458246.48,,,Elias,,,,,,,,,,,,,,,,,,,,,,,,"Data starts t0+2 in SMARTS, has larger than usual errorbars"
-N LMC 2018b,-3,0,N,,2458310.94,ATel #11857,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V408 Lup,-3,0,0.167,0.567,2458272.5,Ashley,2458273.067,0.93589,12.3296,Ashley,42.294,1.86324835,12.39459961,1.61115,1.2677,Ashley,,,,,,,,,,,,0.494,1.58,0.46,stats DIB,0.115,0.034,"Data starts t0+4 in SMARTS, looks a bit questionable. Review."
-V357 Mus,2,1,<13.149,13.149,2458121.74,ATel #11183,2458134.889,1.06407,11.06,Ashley,22.865,1.590659136,11.08624409,1.18235,0.76237,Ashley,2458136.811,6.981,SMARTS,8.531,2458136.81,4.936,SMARTS,-0.00098,1.92106,2.045,0.608,0.215,1.55,0.2,stats,0.113,0.015,tmax is …8134.889 or before
-V3662 Oph,2,0,U,-8.8,2457864.935,Elias,2457873.749,3,1,ASASS-SN,37.00459,,,6,4,Ashley,2457873.5,14.07,ASASS-SN,,,,,,,,,,,,,,,
-V3665 Oph,-2,0,0.9,0.89,2458188.31,SMARTS,2458189.2,4,1,Ashley,48.3,,,3,3,Ashley,2458189.867,9.303,SMARTS,,2458189.866,7.114,SMARTS,-0.00098,0.66621,2.189,,,,,,,,"Data starts t0+2 in SMARTS, oscillations after peak."
-V3666 Oph,-3,0,2.807,2.797,2458339.61,SMARTS,2458342.407,0.88149,0.09907,Ashley,21.6,1.84745814,0.165362102,1.6236,0.1324,Ashley,2458341.632,9.417,SMARTS,12.177,2458341.631,6.632,SMARTS,-0.00098,-0.77614,2.785,0.2258,,2.76,,stats,0.2008,0.005,"Data starts t0+2 in SMARTS, only 4 measurements."
-NR TrA,-2,0,11.92,11.923,2454558.23,Ashley,2454570.153,0.867886,0.92719,Ashley,42.519,1.513391868,1.169770945,1.23981,0.71322,Ashley,,,,,,,,,,,,,,,,,,
-V1661 Sco,2,0,0.9,0.9,2458136.4,ATel #11209,2458137.3,1,1,Ashley,11.222,,,3,3,Ashley,,,,,,,,,,,,,,,,,,
-V1662 Sco,1,1,2.9,2.94,2458156.36,ATel #11289,2458186.5,1,1,Ashley,14.5,,,0.5,0.5,Ashley,2458158.824,9.585,SMARTS,,2458158.823,4.908,SMARTS,-0.00098,-0.47676,4.677,,,,,,,,Data starts t0+1 in SMARTS
-N SMC 2012,-3,0,N,,2456083.5, *,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-N SMC 2016,-2,0,N,,2457671.3, *,,,,,4,,,,,Elias,,,,,,,,,,,,,,,,,,Data looks like it may start around t0+10 in SMARTS
-PR Lup,-1,0,3.9,10.368,2455777.5,Koji,2455787.868,0.665476,0.242704,Ashley,14.747,0.665484063,0.593578516,0.003276,0.541692,Ashley,2455787.517,9.091,SMARTS,11.391,2455787.516,6.155,SMARTS,-0.00098,-0.35189,2.936,,,,,,,,Data at t0 in SMARTS
-QY Mus,-2,1,15.02,15.016,2454738.498,Ashley,2454753.514,4.99,4.576008,Ashley,84.023,38.52774173,5.143311933,38.20323,2.34815,Ashley,,,,,,,,,,,,,,,,,,It looks like the peak is captured in the SMARTS data??? Regardlessm may still be worth looking into; there's a massive V-K color (~10) at what appears to be the end of a dust dip in SMARTS.
-RS Oph,0,1,1.18,0.671,2453779.329, *,2453780.021,0.001,0.001,https://articles.adsabs.harvard.edu/pdf/2007BaltA..16...46M,5,,,2,2,Elias (AAVSO),,,,,,,,,,,,0.344,2.2,0.59,stats DIB,0.16,0.043,Can't use Ashley's tmax because it's from another eruption
-T Pyx,-2,1,27.76,27.7548,2455665.793, *,2455693.548,0.30797,0.15985,Ashley,,,,0.59,0.39714,,2455693.496,6.423,SMARTS,7.773,2455693.495,4.694,SMARTS,-0.00097,-0.05268,1.729,0.477,,1.35,,stats,0.098,0.002,Data starts t0+3 in SMARTS
-V1047 Cen,-3,0,N,,2453583.531,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V1065 Cen,-3,0,N,,2454123.854,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V1187 Sco,-2,0,N,,2453221.083,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,Data starts t0+6 in SMARTS
-V1213 Cen,-2,0,0.05,0.235,2454959.5, *,2454959.735,2.873,4.067,Ashley,11.4088,2.873323269,4.071513499,0.0431,0.191659,Ashley,,,,,,,,,,,,,,,,,,This is very small tmax-t0…?
-V1280 Sco,-2,0,N,11.328,2454136.362, *,2454147.69,,,see notes,,,,,,,2454151.472,2.78,see notes,2.78,,,,,,,,,,,,,,"Data near peak in https://arxiv.org/pdf/0809.4338.pdf, there seems to be a typo in the axis label of the V light curve plot, should be - 2450000 instead of -245400 I think. Data is there for V and K bands after eruption, which is not present in SMARTS."
-V1309 Sco,-3,0,N,,2454711.959,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V1311 Sco,-2,0,0.507,0.519,2455312.288,CBAT,2455312.807,0.81661,1.567,Ashley,2.21,1.28626993,1.929135568,0.9938,1.1252,Ashley,,,,,,,,,,,,,,,,,,
-V1312 Sco,0,0,0.9,1.33,2455713.5,Koji,2455714.83,0.179572,3.33,Ashley,12.914,1.277909643,3.397460721,1.26523,0.673676,Ashley,2455715.714,10.753,SMARTS,13.553,2455715.712,6.674,SMARTS,-0.00196,0.88191,4.079,,,,,,,,Data starts t0+2 in SMARTS
-V1313 Sco,-2,0,1.1,1.516,2455810.5,Koji,2455812.016,0.51029,0.37628,Ashley,8.091,0.626161145,0.61332852,0.36288,0.48434,Ashley,,,,,,,,,,,,,,,,,,Data starts t0+6 in SMARTS
-V1324 Sco,2,0,28.1,28.169,2456070.3, *,2456098.469,0.36347,0.28009,Ashley,24.159,0.387982421,0.32336507,0.13572,0.1616,Ashley,,,,,,,,,,,,0.323,3.1,0.3,stats,0.226,0.023,
-V1368 Cen,2,0,0.7,0.7,2456005.9,Ashley,2456006.6,,,Ashley,14,,,,,,,,,,,,,,,,,,2.883,,stats (3D map) (https://iopscience.iop.org/article/10.3847/1538-4365/ab1b43/pdf),0.21,0.005,Data starts t0+5 in SMARTS
-V1369 Cen,2,0,11.97,11.975,2456629.192, *,2456641.167,2.026107,1.934715,Ashley,37.673,2.351626807,4.086566568,1.19375,3.59957,Ashley,2456638.859,4.941,SMARTS,5.161,2456638.858,4.532,SMARTS,-0.00098,-2.30909,0.409,0.205,0.054,0.22,0.05,stats,0.016,0.004,"Probably saturated. There is a value in smarts for just after tmax, but it is further away than the value here."
-V1375 Cen,-2,0,U,,2455378.5, *,,,,,,,,,,,,,,,,,,,,,,,0.38,0.02,3D Dust map (Gaia Parallax),0.028,0.002,
-V1533 Sco,1,0,<0.862,0.862,2456447.1,Ashley,2456447.962,0.66691,3.79209,Ashley,7.858,3.076309294,3.922005578,3.00315,1.00109,Ashley,,,,,,,,,,,,,,,,,,"Data starts t0+12 in SMARTS, tmax is …6447.962 or before"
-V1534 Sco,0,0,1.7,1.651,2456743.349, *,2456745,,,Ashley,7,,,,,Ashley,2456747.808,12.609,SMARTS,15.509,2456747.802,7.977,SMARTS,-0.00635,2.80176,4.632,,,,,,,,Data starts t0+2 in SMARTS
-V1535 Sco,0,0,Discovered after peak,-0.037,2457065.337, *,2457065.3,,,Ashley,15,,,,,Ashley,,,,,,,,,,,,0.665,2.2,0.62,stats DIB,0.16,0.045,"Data starts t0+2 in SMARTS, discovered after peak"
-V1656 Sco,-2,0,2.1,2.1,2457638,ATel #9469,2457640.1,,,Ashley,9,,,,,Ashley,2457642.54,12.233,SMARTS,16.233,2457642.538,6.463,SMARTS,-0.00195,2.43809,5.77,,,,,,,,Data starts t0+5 in SMARTS
-V1663 Aql,-2,0,N,,2453530.74,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Data starts t0+12 in SMARTS, saturated"
-V2574 Oph,-3,0,N,,2453110.3,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V2575 Oph,-2,0,N,,2453775.89,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V2576 Oph,-3,0,N,,2453832.065,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V2615 Oph,-3,0,N,,2454179.312,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Data around t0+9 at https://academic.oup.com/mnras/article/398/1/375/1097976, 1.426 (t0+9)"
-V2670 Oph,-2,0,1.69,1.69,2454612.19,CBAT,2454613.88,0.57155,0.923084,Ashley,14.5,1.570147169,1.067738995,1.462427,0.53664,Ashley,,,,,,,,,,,,,,,,,,
-V2671 Oph,-3,0,1.622,1.622,2454618.108,CBAT,2454619.73,0.16,1.465,Ashley,17.575,6.480175556,7.597305145,6.4782,7.454718,Ashley,,,,,,,,,,,,,,,,,,
-V2672 Oph,-2,0,Discovered at peak,0,2455060.015, *,2455060.015,0.061,2.373,Ashley,2.831,0.181055298,2.378803953,0.17047,0.16607,Ashley,,,,,,,,,,,,,,,,,,"Data starts t0+4 in SMARTS, discovered at peak"
-V2676 Oph,2,0,9.65,9.653,2456012.3,Ashley,2456021.953,1.89156,1.04081,Ashley,83.7869,2.123538849,1.403979419,0.9651,0.94227,Ashley,,,,,,,,,,,,,,,,,,Data starts t0+12 in SMARTS
-V2677 Oph,0,0,1.8,1.839,2456067,Ashley,2456068.839,0.1684,2.60457,Ashley,6.654,0.267134567,2.694263767,0.20737,0.6894,Ashley,2456070.813,11.831,SMARTS,,2456070.812,6.289,SMARTS,-0.00098,1.97301,5.542,,,,,,,,Data starts t0+4 in SMARTS
-V2944 Oph,-1,0,15.11,14.846,2457111.266,ATel #7367,2457126.112,1.039103,0.996343,Ashley,32.548,1.095422836,1.189898075,0.346722,0.650506,Ashley,2457125.828,9.456,SMARTS,10.686,2457125.826,6.666,SMARTS,-0.00195,-0.28583,2.79,1.149,0.601,1.77,0.56,stats DIB,0.129,0.041,Data starts t0+3 in SMARTS
-V339 Del,2,1,2.2,2.157,2456519.084,,2456521.241,0.09221,0.46128,Ashley,11.298,0.363998214,0.491236404,0.352125,0.16892,Ashley,2456520.666,4.976,SMARTS,5.626,2456520.665,3.648,SMARTS,-0.00098,-0.57596,1.328,0.725,0.161,0.65,0.15,stats,0.047,0.011,"Data starts t0+1 in SMARTS, likely saturated."
-V3661 Oph,-1,0,0.9,0.899,2457459.301,ATel #8809,2457460.2,,,Ashley,4.0223,,,,,Ashley,2457459.874,10.937,SMARTS,16.117,2457459.896,5.241,SMARTS,0.02198,-0.304,5.696,1.384,0.666,4.65,0.62,stats DIB,0.338,0.046,Data starts t0+2 in SMARTS
-V0382 Nor,-2,0,N,,2453442.809,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V3890 Sgr,-3,0,0.2,0.23,2458723.37,ATel #13047,2458723.6,,,Ashley,2.8,,,,,Ashley,,,,,,,,,,,,0.461,1.64,0.43,stats DIB,0.119,0.031,
-V407 Lup,-2,0,0.43,0.431,2457655.5, *,2457655.931,0.91836,1.06826,Ashley,4.619,0.941132561,1.101145693,0.20578,0.2671,Ashley,2457657.484,7.158,SMARTS,8.708,2457657.483,4.85,SMARTS,-0.00098,1.55191,2.308,0.871,0.536,1.55,0.5,stats,0.113,0.036,"Data starts t0+2 in SMARTS, likely saturated"
-V0475 Sct,2,0,N,,2452880.08,CBAT,2452884,,,https://ui.adsabs.harvard.edu/abs/2005PASP..117..938M/abstract,,,,,,,,,,,,,,,,,,,,,,,,"Data starts t0+2 in SMARTS, maybe contains tmax??"
-V496 Sct,-2,0,10.09,10.09,2455143.87,CBAT,2455153.96,0.994,1.01,Ashley,58.25,17.28360671,28.29203379,17.255,28.274,Ashley,,,,,,,,,,,,,,,,,,
-V5114 Sgr,-2,0,N,,2453080.32,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,Data starts t0+3 in SMARTS
-V5117 Sgr,-2,0,N,,2453783.87,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,Data starts t0+8 in SMARTS
-V549 Vel,-2,0,23,23.337,2458020.89, *,2458044.227,3.9762,2.34633,Ashley,90,4.157281732,2.535349605,1.2136,0.96059,Ashley,,,,,,,,,,,,0.323,3.25,0.3,stats,0.237,0.023,
-V5558 Sgr,-2,1,N,,2454205.277, *,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Data starts outburst+15 in https://arxiv.org/pdf/1411.6524.pdf, could be useful as this is described as an unusually slow nova."
-V5579 Sgr,-2,0,N,,2454575.284,CBAT,2454579.897,0.143316,0.61206,Ashley,6.997,1.009920574,1.188404819,0.9997,1.01867,Ashley,,,,,,,,,,,,,,,,,,"Data starts outburst+5 in https://arxiv.org/pdf/1106.0883.pdf, review tmax in the paper."
-V5583 Sgr,-2,0,0.22,0.221,2455049.682,Ashley,2455049.903,0.086,0.077,Ashley,5.384,0.653979273,3.283662927,0.6483,3.28276,Ashley,2455053.711,8.714,SMARTS,9.314,2455053.71,7.177,SMARTS,-0.00098,3.80696,1.537,,,,,,,,Data starts t0+4 in SMARTS
-V5584 Sgr,2,0,7.95,7.954,2455130.939,CBAT,2455138.893,1.39741,2.00866,Ashley,40.6504,142.1338396,27.33973832,142.12697,27.26585,Ashley,2455141.518,9.802,SMARTS,11.632,2455141.517,6.439,SMARTS,-0.00098,2.62409,3.363,,,,,,,,Data starts t0+3 in SMARTS
-V5586 Sgr,-2,0,U,,2455310.282,CBAT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V5588 Sgr,0,0,10.3,10.328,2455648.3,Ashley,2455658.628,1.023,0.983,Ashley,46.0065,1.399142327,0.988969792,0.9545,0.1085,Ashley,,,,,,,,,,,,,,,,,,
-V5589 Sgr,0,0,1.2,1.443,2456038.511, *,2456039.954,0.13754,1.614,Ashley,2.334,0.607329116,1.642044077,0.59155,0.30218,Ashley,,,,,,,,,,,,1.663,2.67,1.55,stats DIB,0.194,0.113,Data starts t0+8 in SMARTS
-V5590 Sgr,-2,0,U,,2456041.2,Ashley,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V5591 Sgr,0,0,0.7,0.71,2456105.1,Ashley,2456105.81,0.17653,0.67014,Ashley,2.319,0.300297848,0.717601358,0.242932,0.25664,Ashley,,,,,,,,,,,,,,,,,,Data starts t0+8 in SMARTS
-V5592 Sgr,2,0,0.7,0.7,2456116,Ashley,2456116.7,,,Ashley,18,,,,,Ashley,2456119.813,8.312,SMARTS,7.32,2456119.812,6.309,SMARTS,-0.00098,3.11201,2.003,1.083,,1.023,,stats (3D map) (https://iopscience.iop.org/article/10.3847/1538-4365/ab1b43/pdf),0.074,0.002,Data starts t0+3 in SMARTS
-V5593 Sgr,-2,0,5.9,5.937,2456125,Ashley,2456130.937,7.055904,0.175466,Ashley,43.633,7.067002113,0.256363355,0.395901,0.186906,Ashley,,,,,,,,,,,,0.325,6.36,0.3,stats,0.463,0.025,
-V5666 Sgr,-1,0,21.5,21.5,2456684.4,Ashley,2456705.9,,,Ashley,70,,,,,Ashley,,,,,,,,,,,,,1.55,,stats (3D map) (https://iopscience.iop.org/article/10.3847/1538-4365/ab1b43/pdf),0.113,0.003,Data starts t0+15 in SMARTS
-V5667 Sgr,-1,0,2.93,2.926,2457066.3,Ashley,2457069.226,2.01353,0.948396,Ashley,64.019,2.01496858,1.328149522,0.076127,0.929799,Ashley,2457068.883,9.619,SMARTS,8.599,2457068.882,7.505,SMARTS,-0.00097,-0.34416,2.114,1.141,0.3,1.02,0.28,stats DIB,0.047,0.02,Data starts t0+2 in SMARTS
-V5668 Sgr,2,1,6,5.783,2457097.134, *,2457102.917,0.25717,0.25799,Ashley,74.713,3.343324489,3.827654365,3.333419,3.81895,Ashley,2457102.917,4.254,SMARTS,5.554,2457102.916,3.877,SMARTS,-0.00097,-0.00098,0.377,-0.624,0.333,1.08,0.31,stats DIB,0.079,0.023,"Data starts t0+1 in SMARTS, definitely saturated."
-V5669 Sgr,-2,0,1.1,1.13,2457292.9,Ashley,2457294.03,0.946766,0.447514,Ashley,33.27,8.660541533,3.400433163,8.608636,0.370857,Ashley,2457294.607,8.553,SMARTS,11.783,2457294.605,6.456,SMARTS,-0.00195,0.57498,2.097,-0.898,0.006,3.23,,stats,0.235,0.006,Data starts t0 in SMARTS; there is also data available <1 day before tmax in SMARTS
-V0574 Pup,0,0,N,,2453330.312, *,2453332.216,0.06,0.62,http://www.cbat.eps.harvard.edu/iauc/08400/08445.html#Item2,6.6,,,0.2,0.7,http://www.cbat.eps.harvard.edu/iauc/08400/08445.html#Item2,,,,,,,,,,,,,,,,,,
-V5853 Sgr,-2,0,5.54,5.54,2457607.46,ATel #9343,2457613,,,Ashley,24,,,,,,,,,,,,,,,,,,,,,,,Data starts t0+5 in SMARTS
-V5856 Sgr,-2,0,14,13.932,2457686.52, *,2457700.452,0.38819,0.21042,Ashley,10.704,0.48944974,0.632393727,0.29811,0.59636,Ashley,,,,,,,,,,,,0.215,1.7,0.2,stats,0.124,0.015,
-V597 Pup,-3,0,N,,2454418.73, *,,,,,,,,,,,,,,,,,,,,,,,,,,,,May be data at https://arxiv.org/pdf/0812.4096.pdf at outburst+7
-V598 Pup,-2,0,N,,2454257.468, *,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-V612 Sct,-1,0,40.988,40.988,2457923.5,Ashley,2457964.488,0.864584,1.023996,Ashley,132.2,78.18819431,12.49072063,78.183414,12.448676,Ashley,,,,,,,,,,,,0.665,3.1,0.62,stats DIB,0.226,0.045,t2 from vis
-V679 Car,-2,0,3.43,3.427,2454796.76,CBAT,2454800.187,0.06378,4.36982,Ashley,16.1995,0.648494033,4.384793527,0.64535,0.36206,Ashley,,,,,,,,,,,,,,,,,,
-V745 Sco,0,0,Discovered after peak,0,2456694.5, *,2456694.5,,,Ashley,3,,,,,,,,,,,,,,,,,0.665,2.17,0.62,stats DIB,0.158,0.045,"Data starts t0+2 in SMARTS, Discovered after peak"
-V834 Car,0,0,2.8,3.862,2455984,Ashley,2455987.862,0.09596,0.20704,Ashley,20.0612,0.10541299,0.215802499,0.04363,0.06087,Ashley,,,,,,,,,,,,,,,,,,Data starts t0+13 in SMARTS
-V906 Car,2,1,12.159,12.429,2458193.53, *,2458205.959,0.98529,0.91937,Ashley,43.656,1.321365277,1.114152237,0.88046,0.62936,Ashley,2458205.633,6.143,SMARTS,7.258,2458205.632,4.083,SMARTS,-0.00097,-0.32716,2.06,1.026,0.215,1.115,0.2,stats,0.081,0.015,"Data starts t0+2 in SMARTS, likely saturated"
-V959 Mon,-2,0,Discovered after peak,1461,2456097.5, *,2457558.5,,,Ashley,164,,,,,,,,,,,,,,,,,,,,,,,"""stats"" Google Sheet has 2 entries, one with the eruption date ~4 years before t0?"
-YY Dor,-2,0,N,,2453298.69,SMARTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,Data starts t0+1 in SMARTS
+Official Name,category,Saturated,tmax-t0,tmax-t0 calc,t0,source (t0),tmax,tmax err +,tmax err -,source (tmax),t2,quadt2 +,quadt2 -,t2 err +,t2 err -,source (t20,t2_ulim,Extinction(A_v),A_v Uncertainty,A_v Source,Extinction(A_k),A_k Uncertainty,FileName,Notes
+DE Cir,-2,0,N,,2452921.504,CBAT,,,,,,,,,,,,,,,,,decir_ir.txt,
+FM Cir,-1,1,8.627,8.627,2458138.2,ATel #11209,2458146.827,0.96826,0.94873,Ashley,133.73,1.048456052,2.20040511,0.40216,1.98537,Ashley,0,0.99,0.28,stats DIB,0.072,0.02,fmcir_ir.txt,"My code had the lower xlim(time) set to 120; not sure why. SMARTS has data starting from about t0 (It says it starts at t0-7???? Their t0 is also ~8 days after mine). However, data looks strange... unsure when actual eruption was."
+V1428 Cen,1,0,3,2.999,2456022.27,SMARTS,2456025.269,0.464007,0.428673,Ashley,10.784,0.885162365,0.49231535,0.753797,0.242103,Ashley,0,4.2,0.68,stats,0.306,0.049,ncen2012b_ir.txt,
+V1405 Cen,0,0,23.3,24.32,2457868.58,ATel #10387,2457892,2,1,Elias,108.5,5.385164807,10.04987562,5,10,Ashley,0,1.95,0.56,stats DIB,0.142,0.041,ncen2017_ir.txt,
+N LMC 1996,-2,0,N,,2458176.578,*,,,,,,,,,,,,,,,,,nlmc1996_ir.txt,
+N LMC 2005,2,0,N,,2453700.664,AAVSO Alert 330,2453710.57,1,1,https://ui.adsabs.harvard.edu/abs/2007JAVSO..35..359L/abstract,70.4,2.416609195,2.416609195,2.2,2.2,https://articles.adsabs.harvard.edu/pdf/2007JAVSO..35..359L,0,0.201,,NED CTIO V,0.015,,nlmc2005_ir.txt,
+N LMC 2009a,-1,0,N,,2454867.567,*,2454865,2.5,2.5,Bode etal 2016,5,2.692582404,2.692582404,1,1,Bode etal 2016,0,0.201,,NED CTIO V,0.015,,nlmc2009a_ir.txt,
+N LMC 2009b,2,0,N,,2454956.494,AAVSO Special 154,2454956.494,,,t0 (discovered after peak),,,,,,,,0.201,,NED CTIO V,0.015,,nlmc2009b_ir.txt,
+N LMC 2012a,0,0,N,,2456012.897,*,2456006.9,6,6,Schwarz etal 2015,2,6,6.32455532,0,2,Elias (https://ui.adsabs.harvard.edu/abs/2015AJ....149...95S/abstract),1,0.201,,NED CTIO V,0.015,,nlmc2012a_ir.txt,Data starts t0+2 in SMARTS
+N LMC 2012b,-3,0,N,,2456225.81,ATel #4540,,,,,,,,,,,,,,,,,nlmc2012b_ir.txt,
+N LMC 2013,2,0,N,,2456582.036,ATel #5491,2456577.827,4.009445,4.009445,Elias,52,4.157601377,4.948297607,1.1,2.9,https://iopscience.iop.org/article/10.3847/0067-0049/222/1/9#apjs522167s3,0,0.34,,NED CTIO V,0.025,,nlmc2013_ir.txt,Data starts t0+10 in SMARTS
+N LMC 2015,-2,0,N,,2457096.62,ATel #7260,2457123.005,,,Elias,,,,,,,,0.261,,NED CTIO V,0.019,,nlmc2015_ir.txt,
+N LMC 2018a,-3,0,N,,2458242.46,SMARTS,2458246.48,,,Elias,,,,,,,,,,,,,nlmc2018a_ir.txt,"Data starts t0+2 in SMARTS, has larger than usual errorbars"
+N LMC 2018b,-3,0,N,,2458310.94,ATel #11857,,,,,,,,,,,,,,,,,nlmc2018b_ir.txt,
+V408 Lup,-3,0,0.167,0.567,2458272.5,Ashley,2458273.067,0.93589,12.3296,Ashley,42.294,1.86324835,12.39459961,1.61115,1.2677,Ashley,0,1.58,0.4,stats DIB,0.115,0.029,nlup2018_ir.txt,"Data starts t0+4 in SMARTS, looks a bit questionable. Review."
+V357 Mus,2,1,<13.149,13.149,2458121.74,ATel #11183,2458134.889,1.06407,11.06,Ashley,22.865,1.590659136,11.08624409,1.18235,0.76237,Ashley,0,1.55,0.62,stats,0.113,0.045,nmus2018_ir.txt,tmax is …8134.889 or before
+V3662 Oph,2,0,U,-8.8,2457864.935,Elias,2457873.749,3,1,ASASS-SN,37.00459,6.708203932,4.123105626,6,4,Ashley,0,,,,,,noph2017_ir.txt,
+V3665 Oph,-2,0,0.9,0.89,2458188.31,SMARTS,2458189.2,4,1,Ashley,48.3,5,3.16227766,3,3,Ashley,0,,,,,,noph2018b_ir.txt,"Data starts t0+2 in SMARTS, oscillations after peak."
+V3666 Oph,-3,0,2.807,2.797,2458339.61,SMARTS,2458342.407,0.88149,0.09907,Ashley,21.6,1.84745814,0.165362102,1.6236,0.1324,Ashley,0,1.74,0.5,3D maps,0.127,0.036,noph2018c_ir.txt,"Data starts t0+2 in SMARTS, only 4 measurements."
+NR TrA,-2,0,11.92,11.923,2454558.23,Ashley,2454570.153,0.867886,0.92719,Ashley,42.519,1.513391868,1.169770945,1.23981,0.71322,Ashley,0,,,,,,nrtra_ir.txt,
+V1661 Sco,2,0,0.9,0.9,2458136.4,ATel #11209,2458137.3,1,1,Ashley,11.222,3.16227766,3.16227766,3,3,Ashley,0,,,,,,nsco2018a_ir.txt,
+V1662 Sco,1,1,2.9,2.94,2458156.36,ATel #11289,2458159.3,1,1,Ashley,14.5,1.118033989,1.118033989,0.5,0.5,Ashley,0,,,,,,nsco2018b_ir.txt,Data starts t0+1 in SMARTS
+N SMC 2012,-3,0,N,,2456083.5, *,,,,,,,,,,,,,,,,,nsmc2012_ir.txt,
+N SMC 2016,-2,0,N,,2457671.3, *,,,,,4,,,,,Elias,,,,,,,nsmc2016_ir.txt,Data looks like it may start around t0+10 in SMARTS
+PR Lup,-1,0,3.9,10.368,2455777.5,Koji,2455787.868,0.665476,0.242704,Ashley,14.747,0.665484063,0.593578516,0.003276,0.541692,Ashley,0,,,,,,prlup_ir.txt,Data at t0 in SMARTS
+QY Mus,-2,1,15.02,15.016,2454738.498,Ashley,2454753.514,4.99,4.576008,Ashley,84.023,38.52774173,5.143311933,38.20323,2.34815,Ashley,0,,,,,,qymus_ir.txt,It looks like the peak is captured in the SMARTS data??? Regardlessm may still be worth looking into; there's a massive V-K color (~10) at what appears to be the end of a dust dip in SMARTS.
+RS Oph,0,1,1.18,0.671,2453779.329, *,2453779.44,0.1,0.1,https://articles.adsabs.harvard.edu/pdf/2007BaltA..16...46M,7.9,0.141421356,0.141421356,0.1,0.1,Elias (AAVSO),0,2.3,0.59,stats DIB,0.167,0.043,rsoph_ir.txt,Can't use Ashley's tmax because it's from another eruption
+T Pyx,-2,1,27.76,27.7548,2455665.793, *,2455693.548,0.30797,0.15985,Ashley,,,,0.59,0.39714,,,0.6,,3D maps,0.044,,tpyx_ir.txt,Data starts t0+3 in SMARTS
+V1047 Cen,-3,0,N,,2453583.531,CBAT,,,,,,,,,,,,,,,,,v1047cen_ir.txt,
+V1065 Cen,-3,0,N,,2454123.854,CBAT,,,,,,,,,,,,,,,,,v1065cen_ir.txt,
+V1187 Sco,-2,0,N,,2453221.083,CBAT,,,,,,,,,,,,,,,,,v1187sco_ir.txt,Data starts t0+6 in SMARTS
+V1213 Cen,-2,0,0.05,0.235,2454959.5, *,2454959.735,2.873,4.067,Ashley,11.4088,2.873323269,4.071513499,0.0431,0.191659,Ashley,0,,,,,,v1213cen_ir.txt,This is very small tmax-t0…?
+V1280 Sco,-2,0,N,11.328,2454136.362, *,2454147.69,,,see notes,,,,,,,,,,,,,v1280sco_ir.txt,"Data near peak in https://arxiv.org/pdf/0809.4338.pdf, there seems to be a typo in the axis label of the V light curve plot, should be - 2450000 instead of -245400 I think. Data is there for V and K bands after eruption, which is not present in SMARTS."
+V1309 Sco,-3,0,N,,2454711.959,CBAT,,,,,,,,,,,,,,,,,v1309sco_ir.txt,
+V1311 Sco,-2,0,0.507,0.519,2455312.288,CBAT,2455312.807,0.81661,1.567,Ashley,2.21,1.28626993,1.929135568,0.9938,1.1252,Ashley,0,,,,,,v1311sco_ir.txt,
+V1312 Sco,0,0,0.9,1.33,2455713.5,Koji,2455714.83,0.179572,3.33,Ashley,12.914,1.277909643,3.397460721,1.26523,0.673676,Ashley,0,,,,,,v1312sco_ir.txt,Data starts t0+2 in SMARTS
+V1313 Sco,-2,0,1.1,1.516,2455810.5,Koji,2455812.016,0.51029,0.37628,Ashley,8.091,0.626161145,0.61332852,0.36288,0.48434,Ashley,0,,,,,,v1313sco_ir.txt,Data starts t0+6 in SMARTS
+V1324 Sco,2,0,28.1,28.169,2456070.3, *,2456098.469,0.36347,0.28009,Ashley,24.159,0.387982421,0.32336507,0.13572,0.1616,Ashley,0,3.38,0.5,stats,0.246,0.036,v1324sco_ir.txt,
+V1368 Cen,2,0,0.7,0.7,2456005.9,Ashley,2456009,1.8,1.8,Ashley,16.16,1.843908891,1.843908891,0.4,0.4,AAVSO,0,,,stats (3D map) (https://iopscience.iop.org/article/10.3847/1538-4365/ab1b43/pdf),,,v1368cen_ir.txt,Data starts t0+5 in SMARTS
+V1369 Cen,1,0,11.97,11.975,2456629.192, *,2456641.167,2.026107,1.934715,Ashley,37.673,2.351626807,4.086566568,1.19375,3.59957,Ashley,0,0.13,0.3,stats,0.009,0.022,v1369cen_ir.txt,"Probably saturated. There is a value in smarts for just after tmax, but it is further away than the value here."
+V1375 Cen,-2,0,U,,2455378.5, *,,,,,,,,,,,,2.2,0.56,3D Dust map (Gaia Parallax),0.16,0.041,v1375cen_ir.txt,
+V1533 Sco,1,0,<0.862,0.862,2456447.1,Ashley,2456447.962,0.66691,3.79209,Ashley,7.858,3.076309294,3.922005578,3.00315,1.00109,Ashley,0,,,,,,v1533sco_ir.txt,"Data starts t0+12 in SMARTS, tmax is …6447.962 or before"
+V1534 Sco,0,0,1.7,1.651,2456743.349, *,2456744.5,1,1,https://academic.oup.com/mnras/article/469/4/4341/3868956#88366716,5.6,1.414213562,1.414213562,1,1,https://academic.oup.com/mnras/article/469/4/4341/3868956#88366716,0,,,,,,v1534sco_ir.txt,Data starts t0+2 in SMARTS
+V1535 Sco,0,0,2.463,2.463,2457065.337, *,2457067.8,1,1,http://ooruri.kusastro.kyoto-u.ac.jp/mailarchive/vsnet-alert/18276,13.9,1.414213562,1.414213562,1,1,Ashley,0,2.14,0.59,stats DIB,0.156,0.043,v1535sco_ir.txt,"Data starts t0+2 in SMARTS, discovered after peak"
+V1656 Sco,-2,0,2.1,2.1,2457638,ATel #9469,2457640.1,,,Ashley,9,,,,,Ashley,,,,,,,v1656sco_ir.txt,Data starts t0+5 in SMARTS
+V1663 Aql,-2,0,N,,2453530.74,CBAT,,,,,,,,,,,,,,,,,v1663aql_ir.txt,"Data starts t0+12 in SMARTS, saturated"
+V2574 Oph,-3,0,N,,2453110.3,CBAT,,,,,,,,,,,,,,,,,v2574oph_ir.txt,
+V2575 Oph,-2,0,N,,2453775.89,CBAT,,,,,,,,,,,,,,,,,v2575oph_ir.txt,
+V2576 Oph,-3,0,N,,2453832.065,CBAT,,,,,,,,,,,,,,,,,v2576oph_ir.txt,
+V2615 Oph,-3,0,N,,2454179.312,CBAT,,,,,,,,,,,,,,,,,v2615oph_ir.txt,"Data around t0+9 at https://academic.oup.com/mnras/article/398/1/375/1097976, 1.426 (t0+9)"
+V2670 Oph,-2,0,1.69,1.69,2454612.19,CBAT,2454613.88,0.57155,0.923084,Ashley,14.5,1.570147169,1.067738995,1.462427,0.53664,Ashley,0,,,,,,v2670oph_ir.txt,
+V2671 Oph,-3,0,1.622,1.622,2454618.108,CBAT,2454619.73,0.16,1.465,Ashley,17.575,6.480175556,7.597305145,6.4782,7.454718,Ashley,0,,,,,,v2671oph_ir.txt,
+V2672 Oph,-2,0,Discovered at peak,0,2455060.015, *,2455060.015,0.061,2.373,Ashley,2.831,0.181055298,2.378803953,0.17047,0.16607,Ashley,0,,,,,,v2672oph_ir.txt,"Data starts t0+4 in SMARTS, discovered at peak"
+V2676 Oph,2,0,9.65,9.653,2456012.3,Ashley,2456021.953,1.89156,1.04081,Ashley,83.7869,2.123538849,1.403979419,0.9651,0.94227,Ashley,0,,,,,,v2676oph_ir.txt,Data starts t0+12 in SMARTS
+V2677 Oph,0,0,1.8,1.839,2456067,Ashley,2456068.839,0.1684,2.60457,Ashley,6.654,0.267134567,2.694263767,0.20737,0.6894,Ashley,0,,,,,,v2677oph_ir.txt,Data starts t0+4 in SMARTS
+V2944 Oph,0,0,15.11,14.846,2457111.266,ATel #7367,2457126.112,1.039103,0.996343,Ashley,32.548,1.095422836,1.189898075,0.346722,0.650506,Ashley,0,1.58,0.28,stats DIB,0.115,0.02,v2944oph_ir.txt,Data starts t0+3 in SMARTS
+V339 Del,2,1,2.2,2.157,2456519.084,,2456521.241,0.09221,0.46128,Ashley,11.298,0.363998214,0.491236404,0.352125,0.16892,Ashley,0,0.5,0.19,stats DIB,0.036,0.014,v339del_ir.txt,"Data starts t0+1 in SMARTS, likely saturated."
+V3661 Oph,-1,0,0.9,0.899,2457459.301,ATel #8809,2457460.25,1,1,https://academic.oup.com/mnras/article/469/4/4341/3868956#88366716,3.9,1.414213562,1.414213562,1,1,https://academic.oup.com/mnras/article/469/4/4341/3868956#88366716,0,4.84,0.62,stats DIB,0.352,0.045,v3661oph_ir.txt,Data starts t0+2 in SMARTS
+V382 Nor,-2,0,N,,2453442.809,CBAT,,,,,,,,,,,,,,,,,v382nor_ir.txt,
+V3890 Sgr,-3,0,0.2,0.23,2458723.37,ATel #13047,2458723.6,,,Ashley,2.8,,,,,Ashley,,1.58,0.4,stats DIB,0.115,0.029,v3890sgr_ir.txt,
+V407 Lup,-2,0,0.43,0.431,2457655.5, *,2457655.931,0.91836,1.06826,Ashley,4.619,0.941132561,1.101145693,0.20578,0.2671,Ashley,0,0.74,0.31,stats DIB,0.054,0.023,v407lup_ir.txt,"Data starts t0+2 in SMARTS, likely saturated"
+V475 Sct,2,0,N,,2452880.08,CBAT,2452884.3,0.5,0.5,https://ui.adsabs.harvard.edu/abs/2005PASP..117..938M/abstract,22,1.118033989,1.118033989,1,1,https://ui.adsabs.harvard.edu/abs/2005PASP..117..938M/abstract,0,,,,,,v475sct_ir.txt,"Data starts t0+2 in SMARTS, maybe contains tmax??"
+V496 Sct,-2,0,10.09,10.09,2455143.87,CBAT,2455153.96,0.994,1.01,Ashley,58.25,17.28360671,28.29203379,17.255,28.274,Ashley,0,,,,,,v496sct_ir.txt,
+V5114 Sgr,-2,0,N,,2453080.32,CBAT,,,,,,,,,,,,,,,,,v5114sgr_ir.txt,Data starts t0+3 in SMARTS
+V5117 Sgr,-2,0,N,,2453783.87,CBAT,,,,,,,,,,,,,,,,,v5117sgr_ir.txt,Data starts t0+8 in SMARTS
+V549 Vel,-2,0,23,23.337,2458020.89, *,2458044.227,3.9762,2.34633,Ashley,90,4.157281732,2.535349605,1.2136,0.96059,Ashley,0,3.25,0.3,stats,0.237,0.022,v549vel_ir.txt,
+V5558 Sgr,-2,1,N,,2454205.277, *,,,,,,,,,,,,,,,,,v5558sgr_ir.txt,"Data starts outburst+15 in https://arxiv.org/pdf/1411.6524.pdf, could be useful as this is described as an unusually slow nova."
+V5579 Sgr,-2,0,N,,2454575.284,CBAT,2454579.897,0.143316,0.61206,Ashley,6.997,1.009920574,1.188404819,0.9997,1.01867,Ashley,0,,,,,,v5579sgr_ir.txt,"Data starts outburst+5 in https://arxiv.org/pdf/1106.0883.pdf, review tmax in the paper."
+V5583 Sgr,-2,0,0.22,0.221,2455049.682,Ashley,2455049.903,0.086,0.077,Ashley,5.384,0.653979273,3.283662927,0.6483,3.28276,Ashley,0,,,,,,v5583sgr_ir.txt,Data starts t0+4 in SMARTS
+V5584 Sgr,2,0,7.95,7.954,2455130.939,CBAT,2455138.893,1.39741,2.00866,Ashley,40.6504,142.1338396,27.33973832,142.12697,27.26585,Ashley,0,,,,,,v5584sgr_ir.txt,Data starts t0+3 in SMARTS
+V5586 Sgr,-2,0,U,,2455310.282,CBAT,,,,,,,,,,,,,,,,,v5586sgr_ir.txt,
+V5588 Sgr,0,0,10.3,10.328,2455648.3,Ashley,2455658.628,1.023,0.983,Ashley,46.0065,1.399142327,0.988969792,0.9545,0.1085,Ashley,0,,,,,,v5588sgr_ir.txt,
+V5589 Sgr,0,0,1.2,1.443,2456038.511, *,2456039.954,0.13754,1.614,Ashley,2.334,0.607329116,1.642044077,0.59155,0.30218,Ashley,0,2.48,0.59,stats DIB,0.18,0.043,v5589sgr_ir.txt,Data starts t0+8 in SMARTS
+V5590 Sgr,-2,0,U,,2456041.2,Ashley,,,,,,,,,,,,,,,,,v5590sgr_ir.txt,
+V5591 Sgr,0,0,0.7,0.71,2456105.1,Ashley,2456105.81,0.17653,0.67014,Ashley,2.319,0.300297848,0.717601358,0.242932,0.25664,Ashley,0,,,,,,v5591sgr_ir.txt,Data starts t0+8 in SMARTS
+V5592 Sgr,2,0,0.7,0.7,2456116,Ashley,2456115.5,4.3,4.3,https://ui.adsabs.harvard.edu/abs/2012CBET.3166....1N/abstract,16.8,4.3,17.34156856,0,16.8,,1,1.023,,stats (3D map) (https://iopscience.iop.org/article/10.3847/1538-4365/ab1b43/pdf),0.074,,v5592sgr_ir.txt,Data starts t0+3 in SMARTS
+V5593 Sgr,-2,0,5.9,5.937,2456125,Ashley,2456130.937,7.055904,0.175466,Ashley,43.633,7.067002113,0.256363355,0.395901,0.186906,Ashley,0,6.36,0.3,stats,0.463,0.022,v5593sgr_ir.txt,
+V5666 Sgr,-1,0,21.5,21.5,2456684.4,Ashley,2456705.9,0.5,0.5,AAVSO,68.5,0.707106781,0.707106781,0.5,0.5,AAVSO,0,,,stats (3D map) (https://iopscience.iop.org/article/10.3847/1538-4365/ab1b43/pdf),,,v5666sgr_ir.txt,Data starts t0+15 in SMARTS
+V5667 Sgr,-1,0,2.93,2.926,2457066.3,Ashley,2457069.226,2.01353,0.948396,Ashley,64.019,2.01496858,1.328149522,0.076127,0.929799,Ashley,0,1.02,0.28,stats DIB,0.074,0.02,v5667sgr_ir.txt,Data starts t0+2 in SMARTS
+V5668 Sgr,2,1,6,5.783,2457097.134, *,2457102.917,0.25717,0.25799,Ashley,74.713,3.343324489,3.827654365,3.333419,3.81895,Ashley,0,0.96,0.31,stats DIB,0.07,0.023,v5668sgr_ir.txt,"Data starts t0+1 in SMARTS, definitely saturated."
+V5669 Sgr,-2,0,1.1,1.13,2457292.9,Ashley,2457294.03,0.946766,0.447514,Ashley,33.27,8.660541533,3.400433163,8.608636,0.370857,Ashley,0,,,stats,,,v5669sgr_ir.txt,Data starts t0 in SMARTS; there is also data available <1 day before tmax in SMARTS
+V574 Pup,0,0,N,,2453330.312, *,2453332.216,0.06,0.62,http://www.cbat.eps.harvard.edu/iauc/08400/08445.html#Item2,6.6,0.20880613,0.935093578,0.2,0.7,http://www.cbat.eps.harvard.edu/iauc/08400/08445.html#Item2,0,,,,,,v574pup_ir.txt,
+V5853 Sgr,-2,0,5.54,5.54,2457607.46,ATel #9343,2457613,,,Ashley,24,,,,,,,,,,,,v5853sgr_ir.txt,Data starts t0+5 in SMARTS
+V5856 Sgr,-2,0,14,13.932,2457686.52, *,2457700.452,0.38819,0.21042,Ashley,10.704,0.48944974,0.632393727,0.29811,0.59636,Ashley,0,1.61,0.4,stats DIB,0.117,0.029,v5856sgr_ir.txt,
+V597 Pup,-3,0,N,,2454418.73, *,,,,,,,,,,,,,,,,,v597pup_ir.txt,May be data at https://arxiv.org/pdf/0812.4096.pdf at outburst+7
+V598 Pup,-2,0,N,,2454257.468, *,,,,,,,,,,,,,,,,,v598pup_ir.txt,
+V612 Sct,-1,0,40.988,40.988,2457923.5,Ashley,2457964.488,0.864584,1.023996,Ashley,132.2,78.18819431,12.49072063,78.183414,12.448676,Ashley,0,3.1,0.62,stats DIB,0.221,0.043,v612sct_ir.txt,t2 from vis
+V679 Car,-2,0,3.43,3.427,2454796.76,CBAT,2454800.187,0.06378,4.36982,Ashley,16.1995,0.648494033,4.384793527,0.64535,0.36206,Ashley,0,,,,,,v679car_ir.txt,
+V745 Sco,1,0,0.8,0.8,2456694.5, *,2456695.3,1,0.1,Molina et al. 2024,2.5,1.004987562,0.509901951,0.1,0.5,Molina et al. 2024,0,2.17,0.62,stats DIB,0.156,0.046,v745sco_ir.txt,"Data starts t0+2 in SMARTS, Discovered after peak"
+V834 Car,0,0,2.8,3.862,2455984,Ashley,2455987.862,0.09596,0.20704,Ashley,20.0612,0.10541299,0.215802499,0.04363,0.06087,Ashley,0,,,,,,v834car_ir.txt,Data starts t0+13 in SMARTS
+V906 Car,1,1,12.159,12.429,2458193.53, *,2458205.959,0.98529,0.91937,Ashley,43.656,1.321365277,1.114152237,0.88046,0.62936,Ashley,0,1.115,0.2,stats DIB,0.065,0.015,v906car_ir.txt,"Data starts t0+2 in SMARTS, likely saturated"
+V959 Mon,-2,0,Discovered after peak,1461,2456097.5, *,2457558.5,,,Ashley,164,,,,,,,,,,,,v959mon_ir.txt,"""stats"" Google Sheet has 2 entries, one with the eruption date ~4 years before t0?"
+YY Dor,-2,0,N,,2453298.69,SMARTS,,,,,,,,,,,,,,,,,yydor_ir.txt,Data starts t0+1 in SMARTS
